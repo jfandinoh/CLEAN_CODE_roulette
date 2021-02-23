@@ -1,0 +1,132 @@
+{
+	"info": {
+		"_postman_id": "1a7e5301-796c-4423-ae95-134b5bd92486",
+		"name": "Masivian",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:58467/api/Roulette/NewRoulette",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:58467/api/Roulette/NewRoulette",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "58467",
+					"path": [
+						"api",
+						"Roulette",
+						"NewRoulette"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:58467/api/Roulette/428283058/OpenRoulette",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:58467/api/Roulette/1370587140/OpenRoulette",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "58467",
+					"path": [
+						"api",
+						"Roulette",
+						"1370587140",
+						"OpenRoulette"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:58467/api/Roulette/428283058/BetRoulette",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "IdUser",
+						"value": "1",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Value\":\"1500\",\r\n    \"Number\":\"5\",\r\n    \"Color\":\"Red\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:58467/api/Roulette/1364269502/BetRoulette",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "58467",
+					"path": [
+						"api",
+						"Roulette",
+						"1364269502",
+						"BetRoulette"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:58467/api/Roulette/428283058/CloseRoulette",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:58467/api/Roulette/428283058/CloseRoulette",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "58467",
+					"path": [
+						"api",
+						"Roulette",
+						"428283058",
+						"CloseRoulette"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:58467/api/Roulette/AllRoulettes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:58467/api/Roulette/AllRoulettes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "58467",
+					"path": [
+						"api",
+						"Roulette",
+						"AllRoulettes"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
